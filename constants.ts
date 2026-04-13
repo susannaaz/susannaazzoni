@@ -1,5 +1,12 @@
 import { Publication, ResearchArea, Collaboration, NewsItem, Talk } from './types';
 import { parseBibTex } from './utils/bibParser';
+import profileImg from './img/susannaaz.jpg';
+import researchImg from './img/gravity_group.png'
+
+// Note: These imports will work locally if you have the files in an 'img' folder.
+// For the preview to work here, we use the existing URLs as fallbacks.
+// const profileImg = "https://storage.googleapis.com/nav-p-ais-attachments/758276f5-045a-4721-8742-0199587c6722";
+// const researchImg = "https://picsum.photos/seed/physics_group/1200/800";
 
 export const COLLABORATIONS: Collaboration[] = [
   {
@@ -501,7 +508,8 @@ export const PROFILE = {
   email: "sazzoni@princeton.edu",
   scholarUrl: "https://scholar.google.com/citations?user=eWLv744AAAAJ&hl=it&oi=ao",
   githubUrl: "https://github.com/susannaaz",
-  imageUrl: "https://storage.googleapis.com/nav-p-ais-attachments/758276f5-045a-4721-8742-0199587c6722",
+  imageUrl: profileImg,
+  researchImageUrl: researchImg,
   shortBio: `I am a postdoctoral researcher at Princeton University in cosmology and astrophysics. My work explores how the Universe began and how its earliest moments grew into the cosmic web we see today. Drawing on data from the Simons Observatory and LiteBIRD—and complementary large-scale-structure surveys—I study faint patterns in the cosmic microwave background to probe inflation, uncover new physics, and trace the evolution of cosmic structure. My path here has been shaped by curiosity more than a plan. I started in theory, drawn to quantum gravity and supersymmetry while studying physics and philosophy at King’s College London, and dipped into data through early projects with LIGO and SDSS. But I realized I didn’t understand how any of the instruments behind those discoveries actually worked. So for my master’s, I went into experimental cosmology—where I ended up building a working 100 mK miniature dilution refrigerator entirely from scratch (having started from not even knowing how to turn a screw the right way). During my PhD at Oxford, everything came together. I learned to code from the ground up, discovered the power of observational cosmology, and found my niche in building the tools that connect theory, data, and instruments. Ever since, my work has focused on using precision measurements of the sky to uncover new physics and tell the story of how our Universe came to be.`,
   fullBio: `I am currently working at Princeton University on the Cosmic Microwave Background (CMB). My research focuses on the search for primordial gravitational waves—ripples in spacetime from the earliest moments of the universe. I combine advanced data analysis techniques, instrument characterization, and cosmological theory to separate these faint signals from galactic foregrounds and systematic noise.`
 };

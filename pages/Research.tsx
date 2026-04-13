@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-import { COLLABORATIONS } from '../constants';
+import { COLLABORATIONS, PROFILE } from '../constants';
 
 const Research: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const Research: React.FC = () => {
         <figure className="w-full">
             <div className="w-full h-68 md:h-82 bg-stone-100 rounded-sm overflow-hidden shadow-sm">
                 <img 
-                    src="../img/gravity_group.png" 
+                    src={PROFILE.researchImageUrl} 
                     alt="Timeline of research experiences" 
                     className="w-full h-full object-cover opacity-90 hover:opacity-100 hover:scale-105 transition-all duration-700"
                     referrerPolicy="no-referrer"

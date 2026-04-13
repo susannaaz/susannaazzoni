@@ -37,7 +37,7 @@ const Home: React.FC = () => {
           <div className="md:w-1/3 flex flex-col items-center md:items-start md:sticky md:top-32">
              <div className="h-56 w-56 md:h-72 md:w-72 rounded-full overflow-hidden border border-stone-200 shadow-md mb-8 bg-stone-100">
                 <img 
-                  src="../img/susannaaz.jpg"
+                  src="img/susannaaz.jpg"
                   alt={PROFILE.name} 
                   referrerPolicy="no-referrer"
                   className="object-cover w-full h-full scale-140 hover:scale-125 transition-all duration-700 ease-out cursor-pointer"
