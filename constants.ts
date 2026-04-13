@@ -31,7 +31,7 @@ export const COLLABORATIONS: Collaboration[] = [
     description: 'A project aimed at providing high-sensitivity maps of the sky at low frequencies to improve our understanding of galactic foregrounds.',
     contribution: 'I contribute to the analysis of low-frequency data to better characterize synchrotron radiation, which is a critical foreground for CMB polarization searches.',
     imageUrl: 'https://www.spiedigitallibrary.org/ContentImages/Proceedings/13102/1310225/FigureImages/00076_PSISDG13102_1310225_page_8_1.jpg',
-    url: 'https://elfs.web.roma2.infn.it/'
+    url: 'https://arxiv.org/pdf/2310.16509'
   },
   {
     id: 'qubic',
