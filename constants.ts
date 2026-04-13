@@ -5,7 +5,7 @@ import researchImg from './img/gravity_group.png'
 
 // Note: These imports will work locally if you have the files in an 'img' folder.
 // For the preview to work here, we use the existing URLs as fallbacks.
-// const profileImg = "https://storage.googleapis.com/nav-p-ais-attachments/758276f5-045a-4721-8742-0199587c6722";
+// const profileImg = "https://picsum.photos/seed/physics_group/1200/800";
 // const researchImg = "https://picsum.photos/seed/physics_group/1200/800";
 
 export const COLLABORATIONS: Collaboration[] = [
