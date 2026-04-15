@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://susannaaz.github.io/susannaazzoni/sitemap.xml
