@@ -8,9 +8,7 @@ const Contact: React.FC = () => {
       <div className="max-w-2xl mb-16">
          <h1 className="text-4xl font-serif text-stone-900 mb-6">Get in Touch</h1>
          <p className="text-lg text-stone-600 leading-relaxed">
-           I am always interested in hearing from students, collaborators, and the public. 
-           For prospective students interested in working on computational cosmology, please 
-           read my research page before reaching out.
+           I am always interested in hearing from students, collaborators, and the public.
          </p>
       </div>
 
