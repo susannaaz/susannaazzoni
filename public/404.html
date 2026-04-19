@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      const segment = '/susannaazzoni';
+      const path = window.location.pathname.replace(segment, '');
+      const search = window.location.search || '';
+      const hash = window.location.hash || '';
+      const redirectTo = segment + '/?redirect=' + encodeURIComponent(path + search + hash);
+      window.location.replace(redirectTo);
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
